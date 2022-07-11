@@ -4,11 +4,11 @@
 
 UI explorer in [https://rfld.ever.live](https://rfld.ever.live)
 
-graphQl query endpoint [https://rfld-dapp01.ds1.itgold.io/graphql](https://rfld-dapp01.ds1.itgold.io/graphql)
+graphQl query endpoint [https://rfld-dapp.itgold.io/graphql](https://rfld-dapp.itgold.io/graphql)
 
 
 ```bash
-curl -X POST https://rfld-dapp01.ds1.itgold.io/graphql -H "Content-Type: application/json" -d '{"operationName":null,"variables":{},"query":"{  blocks(    filter: {workchain_id: {eq: -1}}    orderBy: {path: \"gen_utime\", direction: DESC}    limit: 1  ) {    gen_utime\n  }}"}'
+curl -X POST https://rfld-dapp.itgold.io/graphql -H "Content-Type: application/json" -d '{"operationName":null,"variables":{},"query":"{  blocks(    filter: {workchain_id: {eq: -1}}    orderBy: {path: \"gen_utime\", direction: DESC}    limit: 1  ) {    gen_utime\n  }}"}'
 ```
 
 ## Get tokens
