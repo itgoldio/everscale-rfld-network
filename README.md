@@ -28,7 +28,7 @@ export Marvin_Addr="0:deda155da7c518f57cb664be70b9042ed54a92542769735dfb73d3eef8
 export Your_Addr="0:0000000000000000000000000000000000000000000000000000000000000000"
 tonos-cli config endpoint reset
 tonos-cli config --url itgold.io
-tonos-cli config endpoint add itgold.io "https://rfld-dapp01.ds1.itgold.io"
+tonos-cli config endpoint add itgold.io "https://rfld-dapp.itgold.io"
 tonos-cli -u 'itgold.io' call 0:deda155da7c518f57cb664be70b9042ed54a92542769735dfb73d3eef85acdaf grant "{\"addr\":\"$Your_Addr\"}" --abi Marvin.abi.json  
 ```
 
